@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+.div1 {
+    margin: 50px;
+    padding: 20px;
+    /* border: dashed 6px red; */
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+
+.cicle {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 50px;
+}
+
+.el {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+
+
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 30px;
+
+    border-bottom: 2px dotted red;
+}
+
+
+.el2 {
+    border: 2px dashed silver;
+
+    /* margin: 15px 20px;
+    padding: 15px 20px; */
+
+    /* padding: 10px 20px 30px; */
+
+    padding: 10px 20px 30px 40px;
+    margin: 10px 20px 30px 40px;
+}
+
+
+.list {
+    /* list-style-image: url('./media/images.jpg'); */
+    list-style-position: outside;
+    list-style-type: square;
+}
