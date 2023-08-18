@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .b1 {
+            border: 2px solid red;
+            background-color: aqua;
+            height: 80px;
+            width: calc(50% - 20px);
+            float: left;
+        }
+
+        .b2 {
+            border: 2px solid black;
+            background-color: silver;
+            height: 80px;
+            width: calc(50% - 20px);
+            float: right;
+        }
+
+        .lrn {
+            display: none;
+            margin-left: 20px;
+        }
+
+        @media screen and (max-width: 1024px) {
+            .b1 {
+                width: calc(70% - 20px);;
+            }
+
+            .b2 {
+                display: none;
+            }
+
+            .lrn {
+                display: block;
+            }
+        }
+    </style>
+    <div>
+        <div class="b1">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Repudiandae saepe quam facilis, eaque alias veritatis. 
+             Id cum ex laborum possimus minima tempora commodi illum. Est molestiae animi libero suscipit alias.
+        </div>
+        <div class="b2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quisquam obcaecati sequi ratione fugiat aperiam quae, voluptatibus magnam aliquam, quo sapiente. Voluptatum esse velit quaerat quidem sed. Deserunt, sunt. Totam?
+        </div>
+
+        <div class="lrn">
+            Learn more
+        </div>
+    </div>
+</body>
+</html>
