@@ -1,0 +1,17 @@
+path
+
+selectorls css
+
+table, tr, td, 
+
+border=""
+
+ <thead>, <tbody>, <tfoot>. th
+
+width, height.
+
+align="center" valign="middle"
+
+colspan, rowspan
+
+<colgroup> <col
