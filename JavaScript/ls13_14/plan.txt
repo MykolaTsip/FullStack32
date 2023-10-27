@@ -1,0 +1,10 @@
+
+arrow function vs function
+
+pseudo arguments
+
+anonimus function
+
+self Invoke functions
+
+Function in Function

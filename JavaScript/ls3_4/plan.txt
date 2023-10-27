@@ -1,0 +1,14 @@
+registed word
+
+from type to type
+
+typeof
+
+if else
+(+operators: %, **, ==, !=, >=, >, !, ||, &&)
+
+switch
+
+ternar
+
+array
