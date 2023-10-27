@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="X-Frame-Options" content="deny"> -->
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        form {
+            border: 2px solid red;
+            border-radius: 25px;
+            max-width: 600px;
+            padding: 15px;
+        }
+
+        input[type="submit"] {
+            margin-top: 15px;
+            margin-left: calc(50% - 72px);
+            padding: 5px 10px;
+            border: 1px solid red;
+            border-radius: 10px;
+            background-color: aqua;
+            font-size: 20px;
+        }
+
+        .block {
+            display: block;
+        }
+
+        div {
+            margin: 15px 10px;
+        }
+
+        label {
+            margin: 5px;
+        }
+
+        select {
+            width: 80px;
+        }
+
+        textarea {
+            width: 100%;
+        }
+    </style>
+    <form action="">
+        <div>
+            <label for="lname" class="block">Your last name:</label>
+            <input type="text" placeholder="Enter last name" id="lname" required>
+        </div>
+
+        <div>
+            <label for="fname" class="block">Your first name:</label>
+            <input type="text" placeholder="Enter first name" id="fname" required>
+        </div>
+
+        <div>
+            <label for="pass" class="block">Your password:</label>
+            <input type="password" required placeholder="Enter password" id="pass">
+        </div>
+
+        <div>
+            <label for="em" class="block">Enter your email:</label>
+            <input type="email" required placeholder="Enter email" id="em">
+        </div>
+
+        <hr>
+        <div>
+            <label>Sex:</label>
+            <input type="radio" name="sex" id="w">
+            <label for="w">Woomen</label>
+            |
+            <input type="radio" name="sex" id="m">
+            <label for="m">Men</label>
+        </div>
+
+        <div>
+            <input type="checkbox" value="1" id="1"><label for="1">1</label>
+            <input type="checkbox" value="2" id="2"><label for="2">2</label>
+            <input type="checkbox" value="3" id="3"><label for="3">3</label>
+        </div>
+
+        <div>
+            <label for="sel">SELECT:</label>
+            <select id="sel">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="des" class="block">Describe:</label>
+            <textarea name="describe" id="des" cols="30" rows="10" placeholder="Describe"></textarea>
+        </div>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        if(window.top != window.self){
+            top.location.href = document.location.href;
+        }
+    </script>
+</body>
+</html>

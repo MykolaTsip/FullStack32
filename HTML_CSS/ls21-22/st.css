@@ -1,0 +1,13 @@
+body {
+    background-color: silver !important;
+}
+
+div {
+    background-color: aqua;
+    min-height: 10px;
+}
+
+p {
+    background-color: red;
+    min-height: 10px;
+}
