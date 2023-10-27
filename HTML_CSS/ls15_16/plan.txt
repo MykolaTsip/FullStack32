@@ -1,0 +1,17 @@
+Grid
+
+grid-template-, fr, minmax, auto, fit-content, repeat 
+
+grid-template-areas => grid area
+
+grid-auto-rows, grid-auto-columns
+
+grid-row-start\end, grid-column-start\end
+
+justyfy-items\self align-items\self
+
+Animation
+
+hover
+transition
+transform, rotate, scale, translate

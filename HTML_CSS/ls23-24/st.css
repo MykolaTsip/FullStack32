@@ -1,0 +1,27 @@
+body {
+    background-color: blue;
+    min-height: 100vh;
+}
+
+.kub {
+    height: 400px;
+}
+
+.kub .c1 {
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+} 
+
+.kub .c2 {
+    background-color: silver;
+    width: 50px;
+    height: 50px;
+}
+
+
+.kub .c3 {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+}

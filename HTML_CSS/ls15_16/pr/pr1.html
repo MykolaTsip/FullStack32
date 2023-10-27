@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .red {
+            background-color: red;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .black {
+            background-color: black;
+        }
+
+        .or1 {
+            background-color: orange;
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+
+        .or2 {
+            background-color: orange;
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+
+
+        .main {
+            height: 800px;
+            width: 1000px;
+            display: grid;
+            grid-template: 100px 600px 100px / repeat(4, 1fr);
+        }
+
+        /* .main {
+            height: 800px;
+            width: 1000px;
+            background-color: orange;
+            
+            display: grid;
+            grid-template: 600px / repeat(4, 1fr);
+        } */
+
+    </style>
+    <!-- <div class="main">
+        <div class="red"></div>
+        <div class="green"></div>
+        <div class="blue"></div>
+        <div class="black"></div>
+    </div> -->
+
+
+    <div class="main">
+        <div class="or1"></div>
+        <div class="red"></div>
+        <div class="green"></div>
+        <div class="blue"></div>
+        <div class="black"></div>
+        <div class="or2"></div>
+    </div>
+</body>
+</html>
