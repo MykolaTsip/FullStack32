@@ -3,7 +3,7 @@
 var a = 45
 
 let b = 66
-const c = 100;
+ const c= 100;
 
 b = 1
 // c = 10; 

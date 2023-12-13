@@ -1,0 +1,14 @@
+.header {
+    height: 100px;
+    background-color: aquamarine;
+    padding: 25px 0;
+}
+
+ul {
+    width: 80%;
+    margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
