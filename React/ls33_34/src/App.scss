@@ -1,0 +1,108 @@
+// @import '.';
+@import './mixin.scss';
+
+$base-border: silver;
+$base-ground: darkgray;
+
+$w-300: 300px;
+
+@function sdd ($s: 16) {
+
+    @if $s == 16 {
+    @return 16px;
+        
+    } @if $s == 20 {
+        @return 20px;
+    }
+
+    @return 30px;
+}
+
+
+// .user {
+//     width: 300px;
+//     border: 2px solid silver;
+//     border-radius: 30px;
+//     background-color: darkgray;
+// }
+
+// .user .user_img img {
+//     width: 100%;
+//     border-radius: 30px;
+// }
+
+// .user .user_title {
+//      text-align: center;
+// }
+
+// .user .user_content {
+//     padding: 10px;
+//     font-size: 20px;
+// }
+
+.user {
+    width: $w-300;
+    border: 2px solid $base-border;
+    border-radius: 30px;
+    background-color: $base-ground;
+    
+    &_img {
+
+        width: 100%;
+        
+        
+        &-i img{
+            width: 100%;
+            border-radius: 30px;
+        }
+    }
+    
+    &_title {
+         text-align: center;
+    }
+    
+    &_content {
+        padding: 10px;
+        font-size: 20px;
+    }
+}
+
+%mySelector {
+    margin: 20px 5px;
+    border: 2px solid red;
+    height: 100px;
+    width: $w-300;
+}
+
+.block {
+    @extend %mySelector;
+    // margin: 20px 5px;
+    // border: 2px solid red;
+    // width: $w-300;
+    // height: 100px;
+
+    background-color: $base-ground;
+}
+
+.block2 {
+    @extend %mySelector;
+    // @extend .block;
+    // margin: 20px 5px;
+    // border: 2px solid red;
+    // width: $w-300;
+    // background-color: black;
+    // height: 100px;
+
+
+    background-color: black;
+}
+
+
+.d {
+    background-color: aqua;
+    height: 100px;
+    @include m_flex(false);
+
+    font-size: sdd(20);
+}
+

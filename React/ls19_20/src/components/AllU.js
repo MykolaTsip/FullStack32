@@ -17,7 +17,6 @@ function AllU() {
     const goUser = (id) => {
 
         currentUser(`${id}`)
-
     }
 
     useEffect(() => {

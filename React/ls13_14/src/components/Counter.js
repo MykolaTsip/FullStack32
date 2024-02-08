@@ -16,7 +16,7 @@ function countReducer(state, action) {
         // break;
         case COUNT_ACTIONS.MUNUS: return { count: state.count - 1 };
         // break;
-        default: return 0;
+        default: return 0
     }
 }
 
